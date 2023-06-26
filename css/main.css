@@ -17,6 +17,10 @@
     :root {
       --animation-font-size: 1.4em;
     }
+
+    html {
+        background-color: #f6f6f2;
+    }
   
     header {
       display: flex;
@@ -24,6 +28,7 @@
       justify-content: center;
       align-items: center;
     }
+
   
     main {
       display: flex;
@@ -32,7 +37,6 @@
       align-items: center;
       row-gap: 35px;
       column-gap: 50px;
-      background-color: #f6f6f2;
     }
   
     #Arthur-headshot {
@@ -68,6 +72,10 @@
     :root {
       --animation-font-size: 1.3em;
     }
+
+    html {
+        background-color: #f6f6f2;
+    }
   
     #Arthur-headshot {
       width: 150px;
@@ -87,6 +95,10 @@
   @media (max-width: 640px) {
     :root {
       --animation-font-size: 1.3em;
+    }
+
+    html {
+        background-color: #f6f6f2;
     }
   
     header {
