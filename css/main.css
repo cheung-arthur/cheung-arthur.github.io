@@ -34,7 +34,7 @@
       column-gap: 50px;
     }
   
-    #samuel-headshot {
+    #Arthur-headshot {
       width: 15vw;
       height: 15vw;
     }
@@ -68,7 +68,7 @@
       --animation-font-size: 1.3em;
     }
   
-    #samuel-headshot {
+    #Arthur-headshot {
       width: 150px;
       height: 150px;
     }
@@ -96,7 +96,7 @@
       text-align: center;
     }
   
-    #samuel-headshot {
+    #Arthur-headshot {
       width: 150px;
       height: 150px;
     }
@@ -179,7 +179,7 @@
     font-size: 80%;
   }
   
-  #samuel-headshot {
+  #Arthur-headshot {
     border-radius: 50%;
     box-shadow: 4px 4px 5px var(--profile-pic-shadow-gray);
   }
