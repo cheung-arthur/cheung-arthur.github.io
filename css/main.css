@@ -1,6 +1,6 @@
 :root {
-    --main-blue: #bde3ff;
-    --cursor-blue: #49adf5;
+    --main-blue: #6fb3b8;
+    --cursor-blue: #388087;
     --light-gray: #e6e6e6;
     --pulse-gray: #cad7e0;
     --pulse-duration: 0.5s;
@@ -32,6 +32,7 @@
       align-items: center;
       row-gap: 35px;
       column-gap: 50px;
+      background-color: #f6f6f2;
     }
   
     #Arthur-headshot {
