@@ -42,8 +42,8 @@
 
     #signature{
       float:left;
-      left: 80px;
-      padding: 20px 0;
+      right:50px;
+      padding: 5px 0;
       font-family: 'Nunito', sans-serif;
       color: #cad7e0;
       font-size: 40px;
