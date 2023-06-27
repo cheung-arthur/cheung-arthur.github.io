@@ -42,15 +42,15 @@
 
     #signature{
       float:left;
-      margin: 10px 0;
-      padding: 10px;
+      margin: 7.5px 0;
+      padding: 8px;
       font-family: 'Ysabeau SC', sans-serif;
       color: #cad7e0;
       font-size: 40px;
       position: relative;
       left: -60px;
       border-style: groove;
-      border-width:1px;
+      border-width:1.5px;
       border-color: 1px;
       border-radius: 100%;
 
@@ -78,7 +78,7 @@
       text-decoration: none;
       text-transform: uppercase;
       font-family: 'Nunito', sans-serif;
-      padding: 20px 0;
+      padding: 30px 0;
 
     }
 
