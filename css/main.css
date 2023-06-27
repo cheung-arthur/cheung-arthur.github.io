@@ -60,15 +60,28 @@
       display: inline-block;
       margin-left: 70px;
       padding-top: 23px;
+      position: relative;
     }
 
     nav > ul > li > a {
-      color: #cad7e0;
+      color: yellow;
       text-decoration: none;
       text-transform: uppercase;
       font-family: 'Nunito', sans-serif;
       padding: 10px 0;
 
+    }
+
+    nav > ul > li > a:hover{
+      color: white;
+    }
+
+    nav > ul > li > a::before{
+      content: '';
+      display: block;
+      height: 5px;
+      width: 100%;
+      background-color: white;
     }
   
     #intro{
