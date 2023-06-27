@@ -47,7 +47,12 @@
       color: #cad7e0;
       font-size: 40px;
       position: relative;
-      left: -25px;
+      left: -40px;
+      border-style: groove;
+      border-width:1px;
+      border-color: 1px;
+      border-radius: 30px;
+
     }
 
     .nav-bar-items {
