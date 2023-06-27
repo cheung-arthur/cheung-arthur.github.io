@@ -83,8 +83,9 @@
       width: 100%;
       background-color: white;
       position:absolute;
-      top:5;
+      top:0;
       width:0%;
+      transition: all ease-in-out 250ms;
     }
     nav > ul > li > a:hover::before{
       width:100%;
