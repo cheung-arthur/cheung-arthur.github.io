@@ -9,7 +9,7 @@
   }
   
   * {
-    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-family: "Lato", Arial, Helvetica, sans-serif;
   }
   
   /* Tablet & Laptop */
@@ -50,7 +50,6 @@
 
     .nav-bar-items {
       float:right;
-      width:0%;
     }
 
     nav ul {
@@ -816,7 +815,7 @@
     text-align: center;
   }
   
-  section {
+  section:not(.wrapper) {
     display: flex;
     justify-content: center;
     align-items: center;
