@@ -40,10 +40,30 @@
 
     #signature{
       float:left;
+      padding: 10px 0;
     }
 
     .nav-bar-items {
       float:right;
+    }
+
+    nav ul {
+      margin:0;
+      padding:0;
+      list-style: none;
+    }
+
+    nav li {
+      display: inline-block;
+      margin-left: 70px;
+      padding-top: 23px;
+    }
+
+    nav > ul > li > a {
+      color: #cad7e0;
+      text-decoration: none;
+      text-transform: uppercase;
+
     }
   
     #intro{
