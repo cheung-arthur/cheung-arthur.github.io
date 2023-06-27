@@ -28,6 +28,44 @@
       justify-content: center;
       align-items: center;
     }
+    /* Header and Navigation Bar Styles */
+
+    header {
+      margin-top: 2%;
+      padding: 2vw;
+    }
+
+    .header-nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      background-color: var(--light-gray);
+      z-index: 1;
+      padding: 20px;
+    }
+
+    .header-nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+
+    .header-nav ul li {
+      margin: 10px;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: var(--nav-link-color);
+      font-size: 18px;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: var(--nav-link-hover-color);
+    }
+
 
     #signature {
       justify-content: center;
