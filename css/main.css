@@ -1,5 +1,5 @@
 :root {
-    --main-blue: #6fb3b8;
+    --main-blue: #3AAfA9;
     --cursor-blue: #388087;
     --light-gray: #e6e6e6;
     --pulse-gray: #cad7e0;
@@ -76,12 +76,13 @@
       text-transform: uppercase;
       font-family: 'Open Sans', sans-serif;
       padding: 20px 0 0 5px;
+      margin: 10px 0 0 0;
       font-size: 20px;
 
     }
 
     nav > ul > li > a:hover{
-      color: #DEF2F1;
+      color: #a1e3df;
     }
 
     nav > ul > li > a::before{
@@ -89,7 +90,7 @@
       display: block;
       height: 5px;
       width: 100%;
-      background-color: #DEF2F1;
+      background-color: #a1e3df;
       position:absolute;
       top:0;
       width:0%;
@@ -816,6 +817,8 @@
   
   h2 {
     text-align: center;
+    font-family: 'Roboto Slab', serif;
+    
   }
   
   section:not(.wrapper) {
@@ -898,7 +901,7 @@
   
     h1 > span {
       display: block;
-      color: #DEF2F1;
+      color: #a1e3df;
     }
   
     @keyframes typing {
