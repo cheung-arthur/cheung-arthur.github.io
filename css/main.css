@@ -46,6 +46,8 @@
       font-family: 'Ysabeau SC', sans-serif;
       color: #cad7e0;
       font-size: 40px;
+      position: relative;
+      left: -25px;
     }
 
     .nav-bar-items {
