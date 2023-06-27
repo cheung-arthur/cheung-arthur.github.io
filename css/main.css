@@ -42,11 +42,11 @@
 
     #signature{
       float:left;
-      right:50px;
       padding: 5px 0;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Lato';
       color: #cad7e0;
       font-size: 40px;
+      font-weight:300px;
     }
 
     .nav-bar-items {
