@@ -18,7 +18,7 @@
       --animation-font-size: 1.4em;
     }
 
-    html {
+    html:not(.exclude-radiant) {
         height: 100%;
         overflow: hidden;
         background: radial-gradient(ellipse at bottom, #1b2735 0%,#090a0f 100%);
@@ -42,10 +42,11 @@
 
     #signature{
       float:left;
+      left: 80px;
       padding: 20px 0;
       font-family: 'Nunito', sans-serif;
       color: #cad7e0;
-      font-size: large;
+      font-size: 40px;
     }
 
     .nav-bar-items {
