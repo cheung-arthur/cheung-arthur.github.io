@@ -8,10 +8,7 @@
     --profile-pic-shadow-gray: rgb(167, 166, 166);
   }
   
-  * {
-    font-family: "Lato", Arial, Helvetica, sans-serif;
-  }
-  
+
   /* Tablet & Laptop */
   @media (min-width: 641px) {
     :root {
@@ -74,12 +71,12 @@
     }
 
     nav > ul > li > a {
-      color: yellow;
+      color: white;
       text-decoration: none;
       text-transform: uppercase;
-      font-family: 'Nunito', sans-serif;
+      font-family: 'Open Sans', sans-serif;
       padding: 20px 0;
-      font-size: 30px;
+      font-size: 20px;
 
     }
 
