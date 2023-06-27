@@ -48,9 +48,6 @@
       font-size: 40px;
     }
 
-    .nav-bar-items {
-      float:right;
-    }
 
     nav ul {
       margin:0;
@@ -71,6 +68,7 @@
       text-transform: uppercase;
       font-family: 'Nunito', sans-serif;
       padding: 10px 0;
+      float:right;
 
     }
 
