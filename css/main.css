@@ -21,6 +21,7 @@
     html:not(.exclude-radiant) {
         height: 100%;
         overflow: hidden;
+        background: #1b2735;
     }
   
     .container {
