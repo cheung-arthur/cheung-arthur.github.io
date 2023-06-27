@@ -22,88 +22,36 @@
         background-color: #f6f6f2;
     }
   
-    header {
+      justify-content: center;
+    .container {
+      width: 80%;
+      margin: 0 auto;
+    }
+
+    #nav-bar{
+      background-color: #388087;
+
+    }
+
+    #nav-bar::after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+
+    #signature{
+      float:left;
+    }
+
+    .nav-bar-items {
+      float:right;
+    }
+  
+    #intro{
       display: flex;
       flex-direction: row;
       justify-content: center;
       align-items: center;
-    }
-    /* Header and Navigation Bar Styles */
-
-    header {
-      margin-top: 2%;
-      padding: 2vw;
-    }
-
-    .header-nav {
-      position: fixed;
-      top: 0;
-      left: 0;
-      width: 100%;
-      background-color: var(--light-gray);
-      z-index: 1;
-      padding: 20px;
-    }
-
-    .header-nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-    }
-
-    .header-nav ul li {
-      margin: 10px;
-    }
-
-    nav a {
-      text-decoration: none;
-      color: var(--nav-link-color);
-      font-size: 18px;
-      transition: color 0.3s;
-    }
-
-    nav a:hover {
-      color: var(--nav-link-hover-color);
-    }
-
-
-    #signature {
-      justify-content: center;
-      align-items: center;
-        
-    }
-  
-    #signature{
-      position: absolute;
-      top: 50%;
-      transform: translateY(-50%);
-      font-size: 40px;
-      font-weight: lighter;
-      /* display: inline-block; */
-    }
-  
-    .header-nav {
-      position: fixed;
-      width: 100%;
-      background-color: var(--off-white);
-      padding: 20px;
-      z-index: 1;
-    }
-  
-    .header-nav ul {
-      list-style: none;
-      display: flex;
-      justify-content: center;
-    }
-  
-    .header-nav ul li {
-      margin: 10px;
-    }
-    
-    nav a {
-      text-decoration: none;
-      color: black;
-      font-size: 18px;
     }
 
   
@@ -178,7 +126,7 @@
         background-color: #f6f6f2;
     }
   
-    header {
+    #intro {
       display: flex;
       flex-direction: column;
       justify-content: center;
@@ -224,10 +172,24 @@
     margin: 0;
   }
   
-  header {
+  #intro {
     margin-top: 2%;
     padding: 2vw;
   }
+
+  .container{
+    background-color: darkcyan;
+
+  }
+
+  #signature{
+    float: left;
+  }
+  
+  .nav-bar-items{
+    float: right;
+  }
+
   
   h2 {
     text-align: center;
