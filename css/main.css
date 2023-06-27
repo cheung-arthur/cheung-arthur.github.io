@@ -29,6 +29,45 @@
       align-items: center;
     }
 
+    #signature {
+      justify-content: center;
+      align-items: center;
+        
+    }
+  
+    #signature{
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      font-size: 40px;
+      font-weight: lighter;
+      /* display: inline-block; */
+    }
+  
+    .header-nav {
+      position: fixed;
+      width: 100%;
+      background-color: var(--off-white);
+      padding: 20px;
+      z-index: 1;
+    }
+  
+    .header-nav ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+    }
+  
+    .header-nav ul li {
+      margin: 10px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: black;
+      font-size: 18px;
+    }
+
   
     main {
       display: flex;
