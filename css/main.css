@@ -27,7 +27,7 @@
     }
 
     #nav-bar{
-      background-color: #388087;
+      background-color: #2B7A78;
 
     }
 
@@ -42,7 +42,7 @@
       margin: 7.5px 0;
       padding: 8px;
       font-family: 'Ysabeau SC', sans-serif;
-      color: #cad7e0;
+      color: #FEFFFF;
       font-size: 40px;
       position: relative;
       left: -80px;
@@ -71,17 +71,17 @@
     }
 
     nav > ul > li > a {
-      color: white;
+      color: #FEFFFF;
       text-decoration: none;
       text-transform: uppercase;
       font-family: 'Open Sans', sans-serif;
-      padding: 20px 0;
+      padding: 20px 0 0 5px;
       font-size: 20px;
 
     }
 
     nav > ul > li > a:hover{
-      color: white;
+      color: #DEF2F1;
     }
 
     nav > ul > li > a::before{
@@ -89,7 +89,7 @@
       display: block;
       height: 5px;
       width: 100%;
-      background-color: white;
+      background-color: #DEF2F1;
       position:absolute;
       top:0;
       width:0%;
@@ -884,14 +884,21 @@
       white-space: nowrap;
       animation: typing var(--typing-duration) steps(30, end) forwards,
         blink 1s infinite;
+      
     }
   
     .typewriter-container {
       display: inline-block;
+      font-family: 'Roboto Slab', serif;
+      
+    }
+    h1 {
+      color: #FEFFFF;
     }
   
     h1 > span {
       display: block;
+      color: #DEF2F1;
     }
   
     @keyframes typing {
