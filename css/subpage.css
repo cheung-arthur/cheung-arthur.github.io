@@ -849,6 +849,8 @@ body {
   list-style: none;
   opacity: 0;
   animation: fade-in 2s forwards;
+  position: relative;
+  top: 0;
 }
 
 .coursework-list li {
